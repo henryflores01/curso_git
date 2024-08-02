@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func sumar(a, b int) int {
 	return a + b
@@ -18,6 +21,10 @@ func dividir(a, b int) int {
 	return a / b
 }
 
+func elevar(a, b int) int {
+	return int(math.Pow(float64(a), float64(b)))
+}
+
 func main() {
 	var a, b int
 
@@ -28,4 +35,5 @@ func main() {
 	fmt.Println(restar(a, b))
 	fmt.Println(multiplicar(a, b))
 	fmt.Println(dividir(a, b))
+	fmt.Println(elevar(a, b))
 }
