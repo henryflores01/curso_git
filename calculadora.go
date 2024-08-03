@@ -24,8 +24,8 @@ func main() {
 	fmt.Println("Ingrese dos numeros: ")
 	fmt.Scanf("%d %d", &a, &b)
 
-	fmt.Println(sumar(a, b))
-	fmt.Println(restar(a, b))
-	fmt.Println(multiplicar(a, b))
-	fmt.Println(dividir(a, b))
+	fmt.Printf("%d + %d = %d\n", a, b, sumar(a, b))
+	fmt.Printf("%d - %d = %d\n", a, b, restar(a, b))
+	fmt.Printf("%d * %d = %d\n", a, b, multiplicar(a, b))
+	fmt.Printf("%d / %d = %d\n", a, b, dividir(a, b))
 }
