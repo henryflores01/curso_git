@@ -35,5 +35,5 @@ func main() {
 	fmt.Println(restar(a, b))
 	fmt.Println(multiplicar(a, b))
 	fmt.Println(dividir(a, b))
-	fmt.Println(elevar(a, b))
+	fmt.Printf("%d ^ %d = %d\n", a, b, elevar(a, b))
 }
